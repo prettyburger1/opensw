@@ -94,3 +94,12 @@ tmi 내용![image](https://github.com/prettyburger1/opensw/assets/170292434/5cbe
 
 ## 리눅스 명령어 kill이란?
 
+>kill 명령어는 대개 프로세스를 죽일 때 사용합니다. 하지만 내부적으로는 프로세스에 시그널을 보내 원하는 작업을 하게 하는 명령어입니다.
+
+##### kill 사용법
+
+사용법 : `kill [options] <pid> [...]`
+
+> 사용하기 위해서는 종료하려는 프로세스의 ID(PID)를 알아야 합니다.
+
+추가 옵션![image](https://github.com/prettyburger1/opensw/assets/170292434/96a8d871-5a43-4f43-bc8e-c3226dd1cbf5)
