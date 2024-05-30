@@ -69,7 +69,28 @@ ps명령어의 주요 옵션![image](https://github.com/prettyburger1/opensw/ass
 
 ---
 ### ps와 top의 차이점
----
+
 >ps는 ps한 시점에서 proc에서 검색한 cpu 사용량
 
 >top은 proc에서 일정 주기로 합산해 cpu 사용율 출력한다.
+---
+
+## 리눅스 명령어 jobs란?
+
+>jobs 명령어는 백그라운드로 실행된 프로그램이나 "<Ctrl> + z"를 입력하여 실행한 프로그램에 대해서 확인하는 명령어 입니다.
+
+#### jobs 사용법
+
+사용법 : `jobs [option]
+
+추가옵션![image](https://github.com/prettyburger1/opensw/assets/170292434/97e02e52-93bf-4b18-b602-0c4d8874ab73)
+
+##### jobs tmi
+
+tmi 내용![image](https://github.com/prettyburger1/opensw/assets/170292434/5cbe4bf4-aec8-4bc4-9ac7-d73df2cf8ce9)
+
+> '&'가 있음과 없음에 따라서 멈춰있는 상태 또는 실행 준인 상태임을 알려준다.
+---
+
+## 리눅스 명령어 kill이란?
+
